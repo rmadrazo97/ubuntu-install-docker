@@ -12,6 +12,7 @@ sudo add-apt-repository \
    stable"
 sudo apt-get update
 sudo apt-get install -y docker-ce
+sudo apt-get install docker-compose
 sudo docker run hello-world
 # Linux post-install
 sudo groupadd docker
